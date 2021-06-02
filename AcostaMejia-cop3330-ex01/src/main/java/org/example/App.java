@@ -8,9 +8,14 @@ public class App
     {
 
         Scanner name_input = new Scanner(System.in);  // Create a Scanner object
+
         System.out.println("What is your name?");
-        String name = name_input.next();  // Read user input
-        System.out.println("Hello, " + name + ", nice to meet you!");  // Output user input
+
+        String name = name_input.nextLine();  // Read user input
+
+        String output = "Hello, " + name + ", nice to meet you!";
+
+        System.out.println(output);  // Output user input
 
     }
 }
