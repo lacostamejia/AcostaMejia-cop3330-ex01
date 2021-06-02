@@ -9,7 +9,7 @@ public class App
 
         Scanner name_input = new Scanner(System.in);  // Create a Scanner object
 
-        System.out.println("What is your name?");
+        System.out.print("What is your name?");
 
         String name = name_input.nextLine();  // Read user input
 
